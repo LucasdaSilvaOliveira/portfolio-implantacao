@@ -79,13 +79,6 @@ function HandleClick(type: string) {
   }, 300); 
 }
 
-
-  // const filteredProjects =
-  //   filter === "todos"
-  //     ? projects
-  //     : projects.filter((p) => p.projectType === filter);
-
-
   return (
     <PageContainer>
       <div className="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
