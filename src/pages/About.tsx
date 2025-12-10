@@ -4,15 +4,6 @@ import UserPhoto from "../assets/imgs/profile-default.webp"
 export default function About() {
   return (
     <PageContainer>
-      {/* <div className="flex justify-center">
-        <div>
-          <img className="rounded-full" src={UserPhoto} alt="Foto de perfil de usuário" width={200} />
-        </div>
-        <div>
-
-        </div>
-      </div> */}
-
       <main className="flex-1 px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           {/* <!-- Profile Header --> */}

@@ -4,10 +4,7 @@ import { useState } from "react";
 
 export default function Projects() {
 
-  // const [filter, setFilter] = useState("todos");
-
-
-
+  
 
   const projects = [
     {
