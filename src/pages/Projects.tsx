@@ -21,7 +21,7 @@ export default function Projects() {
   var [projects, setProjects] = useState([] as IProject[]);
 
   useEffect(() => {
-    axios.get('https://localhost:7264/api/Projetos')
+    axios.get('https://api-portfolio-c5eed3fzduene3dc.brazilsouth-01.azurewebsites.net/api/Projetos')
       .then(function (response) {
         let projectsData = response.data;
         setProjects(projectsData);
