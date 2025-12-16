@@ -2,7 +2,7 @@ import PageContainer from "../components/PageContainer";
 import CardProject from "../components/Card/CardProject";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import imgLoading from '/images/loading-spinner.webp';
+import imgLoading from '../assets/imgs/loading-spinner.webp';
 
 interface IProject {
   id: number,
